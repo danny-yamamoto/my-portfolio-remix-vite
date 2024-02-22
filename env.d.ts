@@ -9,4 +9,7 @@ declare module "@remix-run/cloudflare" {
       MY_KV: KVNamespace;
     };
   }
+  interface Env {
+    MY_KV: KVNamespace;
+  }
 }
