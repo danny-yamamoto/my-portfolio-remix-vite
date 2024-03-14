@@ -16,6 +16,15 @@
 
 	// Configure tool-specific properties.
 	// "customizations": {},
+	,"customizations": {
+		"vscode": {
+			"settings": {
+				"files.associations": {
+					"*.css": "tailwindcss"
+				}			
+			}
+		}
+	}
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
