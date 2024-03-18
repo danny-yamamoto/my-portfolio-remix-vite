@@ -13,7 +13,7 @@ export default function PortfolioArticlesRoute() {
     return (
         <ul>
             {articles && articles.map(({ title, url, id }) => (
-            <li key={id} className="truncate-list-item">
+            <li key={id} className="whitespace-nowrap overflow-ellipsis w-1/2">
                 <Link key={id} to={url} target="_blank" rel="noopener noreferrer">{title}</Link>
             </li>
             ))}

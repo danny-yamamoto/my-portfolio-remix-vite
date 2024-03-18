@@ -14,7 +14,7 @@ export default function PortfolioExperienceRoute() {
     return (
         <ul>
         {experience && experience.map(({ id, company, position }) => (
-            <li key={id} className="truncate-list-item">{id}: {position} @ {company}</li>
+            <li key={id} className="whitespace-nowrap overflow-ellipsis w-1/2">{id}: {position} @ {company}</li>
         ))}
         </ul>
     );
