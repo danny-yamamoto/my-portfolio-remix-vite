@@ -1,10 +1,4 @@
 import { Link, Outlet } from "@remix-run/react";
-import type { LinksFunction } from "@remix-run/cloudflare";
-import stylesheet from "~/tailwind.css";
-
-export const links: LinksFunction = () => [
-  { rel: "stylesheet", href: stylesheet }
-];
 
 // route is here.
 export default function PortfolioRoute() {
