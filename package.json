@@ -11,7 +11,8 @@
     "start": "wrangler pages dev ./build/client",
     "typecheck": "tsc",
     "typegen": "wrangler types",
-    "build:css": "tailwindcss --output ./app/styles/tailwind.css --minify"
+    "build:css": "tailwindcss --output ./app/styles/tailwind.css --minify",
+    "format": "prettier --write './**/*.{js,cjs,ts,jsx,tsx,astro,json,html,md}'"
   },
   "dependencies": {
     "@remix-run/cloudflare": "^2.7.2",
