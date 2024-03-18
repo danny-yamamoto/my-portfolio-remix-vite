@@ -3,7 +3,7 @@ import { Link, Outlet } from "@remix-run/react";
 // route is here.
 export default function PortfolioRoute() {
   return (
-    <div id="root" className="pt-20 px-4 bg-gradient-to-b from-blue-600 to-purple-600 text-white h-screen m-0">
+    <div className="pt-20 px-4 bg-gradient-to-b from-blue-600 to-purple-600 text-white h-screen m-0">
       <header>
         <h1 className="text-2xl font-bold my-4">
           <Link className="text-white" to={`/portfolio`}>Welcome to my portfolio</Link>
