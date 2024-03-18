@@ -14,7 +14,7 @@ export default function PortfolioCertificatesRoute() {
     return (
         <ul>
         {certificates.map(({ blockchainId, title }) => (
-            <li className="truncate-list-item" key={blockchainId}>{title}</li>
+            <li className="whitespace-nowrap overflow-ellipsis w-1/2" key={blockchainId}>{title}</li>
         ))}
         </ul>
     );
